@@ -1,0 +1,32 @@
+div.fluid-container{
+  background-image: url("../../assets/images/sd9.jpg");
+  border: 1px solid black;
+  width: auto;
+  height: 500px;
+  }
+  footer{
+    background-color: rgb(0, 153, 255);
+    padding-bottom: 2px;
+    color: #ffffff;
+  }
+  body{
+    background-color: rgb(164, 225, 250);
+  }
+  h3{
+    position: absolute;
+    top: 180px;
+    align-content: center;
+    vertical-align: middle;
+    left: 10% ;
+    width: 80%;
+
+    text-align: center;
+    
+    color: #ffffff;
+    background-color: rgb(0, 153, 255);
+  }
+  h3:hover{
+    background-color: rgb(46, 216, 247);
+    color: aliceblue;
+  }
+  

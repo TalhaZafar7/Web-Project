@@ -1,0 +1,26 @@
+a {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    width: 120px;
+    text-align: center;
+}
+
+a:hover {
+    background-color: rgb(9, 86, 150);
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    color:rgb(8, 102, 139);
+    
+}
+ol{
+    float: left;
+}
+body{
+    background-color: rgb(164, 225, 250);
+}
+.navbar{
+    background-color:rgb(0, 153, 255); 
+}

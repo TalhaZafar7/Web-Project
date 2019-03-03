@@ -1,0 +1,20 @@
+<div class="fluid-container">
+  <div class="jumbotron">
+      <div class="row">
+          <div class="col"> <button class="btn btn-primary" (click)="stud_list()" > Students List  </button> </div>
+          <div *ngIf="test" id="append">
+              {{ response2 }}
+          </div>
+        </div>
+        <br><br><br>
+        <div class="row">
+            <div class="col"> <button class="btn btn-primary" (click)="assign_list()">Assignments List </button> </div>
+            <div *ngIf="test2" id="append2">
+                {{ response }}
+            </div>
+          </div>
+  </div>
+  
+  
+  <footer class="text-center "> &copy; 2019 EagleEye All Rights Reserved </footer>
+</div>
